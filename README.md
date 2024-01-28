@@ -1,8 +1,6 @@
 # llmsinedu
 LLMs in Education
 
-## Kindly Star the Repository
-
 ## Steps:
 ### 1: Clone the repo or open the sheet in colab.
 ### 2: Create a huggingface account.
