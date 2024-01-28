@@ -1,0 +1,9 @@
+streamlit
+numpy
+langchain
+langchain-community
+huggingface_hub
+sentence_transformers
+faiss-cpu
+unstructured[all-docs]
+python-dotenv
