@@ -6,4 +6,5 @@ huggingface_hub
 sentence_transformers
 faiss-cpu
 unstructured[all-docs]
+pinecone-client
 python-dotenv
