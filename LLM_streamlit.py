@@ -2,16 +2,10 @@ import os
 import streamlit as st
 import re
 from langchain_community.document_loaders import OnlinePDFLoader
-# from langchain.embeddings import HuggingFaceEmbeddings
 from langchain_community.embeddings import HuggingFaceEmbeddings
-
-# from langchain.vectorstores import FAISS
 from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
-
-# from langchain import HuggingFaceHub
 from langchain_community.llms import HuggingFaceHub
-
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -112,7 +106,7 @@ if st.button("Initialize Vector Store"):
 # User inputs the question here
 st.session_state["user_question"] = st.text_input("Enter your question:")
 
-if st.button("Ask Questions"):
+if st.button("Ask Question"):
     with st.spinner("Asking Questions..."):
         response = run_ask_questions()
         if response:
